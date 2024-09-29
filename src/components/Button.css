@@ -1,0 +1,16 @@
+.button {
+  background-color: cadetblue;
+  color: darkmagenta;
+  text-align: center;
+  font-size: medium;
+  font-style: normal;
+  border-radius: 4px;
+  transition-duration: 10ms;
+  border-color: black;
+}
+
+.button:hover {
+  background-color: blanchedalmond;
+  color: darkmagenta;
+  border-color: black;
+}
