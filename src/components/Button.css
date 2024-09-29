@@ -14,3 +14,17 @@
   color: darkmagenta;
   border-color: black;
 }
+
+.button:active {
+  background-color: darkblue;
+  transform: scale(0.95);
+}
+
+.button:disabled {
+  background-color: grey;
+  color: black;
+}
+
+.button:before {
+  content: "köra bil 👉 ";
+}
