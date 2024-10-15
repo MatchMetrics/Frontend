@@ -13,7 +13,6 @@
   background-color: blanchedalmond;
   color: darkmagenta;
   border-color: black;
-  padding-bottom: 5px;
 }
 
 .button:active {
@@ -28,5 +27,4 @@
 
 .button:before {
   content: "köra bil 👉 ";
-  content-visibility: 75%;
 }
