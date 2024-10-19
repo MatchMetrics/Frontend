@@ -1,13 +1,14 @@
 import React from "react";
-import TestButton from "./components/TestButton";
+import LeaguesPage from './pages/LeaguesPage'; // Adjust the path as necessary
 
-const App = () => {
-  return (
-    <div>
-      <h1>Welcome to MatchMetrics</h1>
-      <TestButton /> {/* Render your test button */}
-    </div>
-  );
-};
+function App() {
+    return (
+        <div>
+            <h1>Football Live Scores</h1>
+            <LeaguesPage /> {}
+        </div>
+    );
+}
 
 export default App;
+
