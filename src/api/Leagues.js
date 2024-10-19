@@ -12,7 +12,7 @@ export async function fetchLeagues() {
         const leagues = await response.json();
         return leagues.data; // Return leagues from the 'data' property of the API response
     } catch (error) {
-        console.error('Error fetching leagues:', error);
+        console.error('Error while fetching leagues:', error);
         throw error;
     }
 }
